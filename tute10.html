@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Item Shop</title>
     <style>
-        #di1{
-            background-color: pink;
-            border: 2px solid;
-            text-align: center;
+        #dii1{
+             background-color: pink;
+           
+            
         }
         #h11{
             text-align: center;
         }
         #di2{
-            float: left;
+            
             border: 2px solid black;
             text-align: center;
             background-color: pink;
-            width: 48;
-            height:1;
-            margin-left: ;
+            margin-right: 20px;
+            
+        
 
             
         }
@@ -28,15 +28,28 @@
             border: 2px solid black;
             text-align: center;
             background-color: pink;
-            width:48;
+            margin-left: 20px;
+            
+        
+            
             
             
             
         }
         #img1{
-            width:500px;
-            height:250px;
+            width:300px;
+            height:150px;
         }
+        .flexbox-container{
+            display: flex;
+            justify-content: center;
+        }
+        #di4{
+            background-color: pink;
+            text-align: center;
+
+        }
+
 
         
         
@@ -46,29 +59,47 @@
     </style>
 </head>
 <body>
-    <div id="di1">
+    <div id="dii1">
+        
         <h1 id="h11">Music Item Shop</h1>
-        <div id="di2">
+        <div id="di1" class="flexbox-container">
+        
+        <div id="di2" >
             <img src="Guitar Jamz.jpeg" alt=" Acoustic Guitar" id="img1">
             <h3 id="h31">Acoustic Guitar</h3>
             <p id="p11">Price: Rs 15000</p>
             <div id="di21">
                 <button id="btn1">Buy Guitar</button>
+                
             </div>
+            <br>
         </div>
 
-        <div id="di3">
+        <div id="di3" >
             <img src="piano.jpeg" alt=" Didital Piano" id="img1">
             <h3 id="h31">Digital Piano</h3>
             <p id="p11">Price: Rs 65000</p>
             <div id="di31">
-                <button id="btn1">Buy Piano</button>
+                <button id="btn2">Buy Piano</button>
+                
             </div>
+            <br>
         </div>
-        <h3 id="h33">Calculate Discount</h3>
-        <br>
-        <button id="btn2">Get Discount Price</button>
+       
+        
     </div>
+    <div id="di4">
+            <h3 id="myh3"> Calculate Discount </h3>
+        
+        
+        <button id="btn3" > Get Discount Price </button>
+        <br>
+        
+
+        </div>
+
+    
+    
     <script src="tute10.js"></script>
     
 </body>
